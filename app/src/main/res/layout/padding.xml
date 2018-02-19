@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    padding - 내용물 간의 간격을 지정
+        android:padding="50dp"
+
+    margin - 뷰와 부모와의 간격을 지정
+        android:layout_margin="50dp"
+    -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="#ffff0000"
+        android:textSize="24dp"
+        android:background="#ffffff00"
+        android:padding="50dp"  />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="#ffff0000"
+        android:textSize="24dp"
+        android:background="#ff00ffff"
+        android:layout_margin="50dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="#ffff0000"
+        android:textSize="24dp"
+        android:background="#ffff00ff"
+        android:padding="50dp" />
+</LinearLayout>
