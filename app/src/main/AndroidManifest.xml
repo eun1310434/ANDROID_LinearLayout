@@ -4,17 +4,50 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_phliipjeong"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_phliipjeong"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.eun1310434.linearlayout.MainActivity">
+
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BaselineLinearLayoutActivity"
+            android:label="Baseline LinearLayout">
+        </activity>
+
+        <activity
+            android:name=".GravityLinearLayoutActivity"
+            android:label="Gravity LinearLayout">
+        </activity>
+
+        <activity
+            android:name=".HorizontalLinearLayoutActivity"
+            android:label="Horizontal LinearLayout">
+        </activity>
+
+        <activity
+            android:name=".LinearLayoutCodeActivity"
+            android:label="Code LinearLayout">
+        </activity>
+        <activity
+            android:name=".PaddingLinearLayoutActivity"
+            android:label="Padding LinearLayout">
+        </activity>
+        <activity
+            android:name=".VerticalLinearLayoutActivity"
+            android:label="Vertical LinearLayout">
+        </activity>
+        <activity
+            android:name=".WeightLinearLayoutActivity"
+            android:label="Weight LinearLayout">
         </activity>
     </application>
 

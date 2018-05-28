@@ -5,12 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--
-    LinearLayout have to insert this
-
-    android:orientation="vertical",
-    android:orientation="horizontal" -->
-
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
